@@ -13,7 +13,7 @@
             }
 
             try {
-                $str_con = "mysql::host=localhost;dbname=dwii";
+                $str_conn = "mysql::host=localhost;dbname=dwii";
 
                 static::$pdo = new PDO($str_conn, 'aluno', 'alunoifpr',[
                     // Erros gerados pelo PDO serão do tipo Exception
