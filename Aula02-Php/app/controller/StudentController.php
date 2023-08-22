@@ -14,6 +14,10 @@
             return json_encode($this->student->all());
         }
 
+        public function monitor() {
+            return json_encode($this->student->all());
+        }
+
         public function create($data) {
             try {
                 $response = $this->student->create(
