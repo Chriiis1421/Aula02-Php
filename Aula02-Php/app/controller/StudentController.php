@@ -11,7 +11,7 @@
         }
 
         public function read() {
-            return json__encode($this->student->all());
+            return json_encode($this->student->all());
         }
 
         public function create($data) {
