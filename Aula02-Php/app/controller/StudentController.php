@@ -15,7 +15,7 @@
         }
 
         public function monitor() {
-            return json_encode($this->student->all());
+            return json_encode($this->student->monitor());
         }
 
         public function create($data) {
