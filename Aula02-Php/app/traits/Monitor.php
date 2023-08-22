@@ -4,7 +4,7 @@
 
     trait Monitor {
 
-        public function all($returnAll = true) {
+        public function monitor($returnAll = true) {
             try {
                 $query = $this->connection->query("
                     SELECT DISTINCT turma, 
